@@ -520,6 +520,25 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe-container">
+          <p class="subscribe-text">Subscribe</p>
+          <form class="subscribe-form">
+            <label class="subscribe-label">
+              <input
+                type="email"
+                name="subscribe"
+                placeholder="E-mail"
+                class="subscribe-input"
+              />
+            </label>
+            <button type="submit" class="subscribe-btn">
+              Subscribe
+              <svg width="24" height="24" class="subscribe-ico">
+                <use href="./images/icons.svg#icon-plane"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -575,33 +594,34 @@
           </div>
           <div class="modal-field">
             <label for="user-comment" class="input-label">Comment</label>
-              <textarea
-                name="user-comment"
-                id="user-comment"
-                class="text-area"
-                placeholder="Text input"
-              ></textarea>
-            </div>
-            <div class="checkbox-div">
-              <input
-                id="user-privacy"
-                type="checkbox"
-                value="true"
-                name="user-privacy"
-                class="checkbox-item visually-hidden"
-              />
-              <label for="user-privacy" class="checkbox">
-                <span class="privacy-policy">
-                  <svg class="checkbox-ico" width="10" height="8">
-                    <use href="./images/icons.svg#icon-galka"></use>
-                  </svg> </span
-                >I accept the terms and conditions of the<a
-                  class="privacy-link"
-                  href=""
-                  > Privacy Policy</a
-                >
-              </label>
-            </div>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="text-area"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="checkbox-div">
+            <input
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              class="checkbox-item visually-hidden"
+            />
+            <label for="user-privacy" class="checkbox">
+              <span class="privacy-policy">
+                <svg class="checkbox-ico" width="10" height="8">
+                  <use href="./images/icons.svg#icon-galka"></use>
+                </svg> </span
+              >I accept the terms and conditions of the<a
+                class="privacy-link"
+                href=""
+              >
+                Privacy Policy</a
+              >
+            </label>
+          </div>
           <button type="submit" class="modal-btn">Send</button>
         </form>
       </div>
