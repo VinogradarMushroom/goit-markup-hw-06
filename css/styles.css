@@ -693,7 +693,6 @@ img {
 }
 
 .modal-form {
-  padding: 16px 24px;
 }
 
 .modal-field {
@@ -810,14 +809,6 @@ img {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-
-
-
-
-
-
-
-
 
   display: block;
   margin: 0 auto;
